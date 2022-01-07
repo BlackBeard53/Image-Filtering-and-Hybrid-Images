@@ -1,22 +1,5 @@
 # Project : Image Filtering and Hybrid Images
 ## Please see proj1_code >> proj1.ipynb for updated details 
-## Brief
-* Due: Friday, 09/17/2021, 11:59PM
-
-* Hand-in: through Gradescope
-* Required files:
-  * `<your_gt_username>.zip`
-  * `<yout_gt_username>.pdf`
-  
-All projects in this course will be done with these jupyter notebooks. These are convenient ways for you to easily interact with your code. A notebook contains many blocks of code, each of which can be run independently.
-
-There are multiple ways that you can run a cell:
-1. Run the current cell, and stay in the current cell
-  * `ctrl+enter` on Windows and Linux
-  * `cmd+enter` on MacOS
-2. Run the current cell, move to the next cell:
-  * `shift+enter`
-  * click the "Run" button in the tool bar
 
 ## Overview
 The goal of this assignment is to write an image filtering function and use it to create hybrid images using a simplified version of the SIGGRAPH 2006 [paper](https://stanford.edu/class/ee367/reading/OlivaTorralb_Hybrid_Siggraph06.pdf) by Oliva, Torralba, and Schyns. _Hybrid Images_ are static images that change in interpretation as a function of the viewing distance. The basic idea is that high frequency tends to dominate perception when it is available but, at a distance, only the low frequency (smooth) part of the signal can be seen. By blending the high frequency portion of one image with the low-frequency portion of another, you get a hybrid image that leads to different interpretations at different distances.
