@@ -778,63 +778,9 @@ plt.show()
 ![png](proj1_files/proj1_69_0.png)
     
 
-
-# *Extra Credit (for ALL)
-### Impressive Hybrid Images
-
-It is also possible to get extra credit for this project as well if you come up with some clever hybrid images which impress the TAs and Frank. Additionally, you should add slides at the end of your report further showing your results. The best ones get a special mention from Frank at the beginning of one of the future lectures!
-
-# Forbidden functions
-
-You can use these for testing, but not in your final code: anything that takes care of the filtering operation or creates a 2D Gaussian kernel directly for you. ex. (cv2.getGaussianKernel) If it feels like you're sidestepping the work, then it's probably not allowed. Ask the TAs if you have any doubts.
-
 # Code Testing
 
 We have provided a set of tests for you to evaluate your implementation. We have included tests inside `proj1.ipynb` so you can check your progress as you implement each section. When you're done with the entire project, you can call additional tests by running `pytest proj1_unit_tests` inside the `proj1_code` directory of the project. _Your grade on the coding portion of the project will be further evaluated with a set of tests not provided to you._
-
-# Writeup
-
-For this project (and all other projects), you must do a project report using the template slides provided to you at "proj1_template.pptx". Do <u>not</u> change the order of the slides or remove any slides, as this will affect the grading process on Gradescope and you will be deducted points. In the report you will describe your algorithm and any decisions you made to write your algorithm a particular way. Then you will show and discuss the results of your algorithm. The template slides provide guidance for what you should include in your report. A good writeup doesn't just show results--it tries to draw some conclusions from the experiments. You must convert the slide deck into a PDF with the name `<your_gt_username.pdf>` for your submission.
-
-If you choose to do anything extra, add slides _after the slides given in the template deck_ to describe your implementation, results, and analysis. Adding slides in between the report template will cause issues with Gradescope, and you will be deducted points. You will not receive full credit for your extra credit implementations if they are not described adequately in your writeup. 
-
-# Please check your assignment completion
-
-### Required for all
-* `create_1d_gaussian_kernel()`
-* `my_1d_filter()`
-* `create_2d_gaussian_kernel()`
-* `my_imfilter()`
-* `create_hybrid_image()`
-* `make_dataset()`
-* `get_cutoff_standarddeviations()`
-* `HybridImageDataset#__init__()`
-* `HybridImageDataset#__len__()`
-* `HybridImageDataset#__getitem__()`
-* `HybridImageModel#get_kernel()`
-* `HybridImageModel#low_pass()`
-* `HybridImageModel#forward()`
-* `my_median_filter()`
-
-### Report
-* Answer all the questions on the report correctly
-
-### Required for 6476 students, Optional for 4476 students
-* `dft_matrix()`
-* `my_dft()`
-* `dft_filter()` results in the report
-
-
-### Note
-* Additional hybrid images will be awarded extra credits, graded on creativity and originality
-* Lose 5 points for every time you do not follow the instructions for the hand-in format.
-
-
-# Submission
-
-This is very important as you will lose 5 points for every time you do not follow the instructions. 
-
-Do <u>not</u> install any additional packages inside the conda environment. The TAs will use the same environment as defined in the config files we provide you, so anything that's not in there by default will probably cause your code to break during grading. Do <u>not</u> use absolute paths in your code or your code will break. Use relative paths like the starter code already does. Failure to follow any of these instructions will lead to point deductions. Create the zip file using `python zip_submission.py --gt_username <your_gt_username>` (it will zip up the appropriate directories/files for you!) and hand it through Gradescope. Remember to submit your report as a PDF to Gradescope as well.
 
 # Credit
 - Assignment developed by Arvind Krishnakumar, Ayush Baid, Sen Wang and Frank Dellaert, based on a similar project by James Hays, Derek Hoiem, Cusuh Ham, John Lambert and Samarth Brahmbhatt.<br/>
