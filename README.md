@@ -1,6 +1,5 @@
-# CS x476 - Fall 2021
-# Project 1: Image Filtering and Hybrid Images
-
+# Project : Image Filtering and Hybrid Images
+## Please see proj1_code >> proj1.ipynb for updated details 
 ## Brief
 * Due: Friday, 09/17/2021, 11:59PM
 
